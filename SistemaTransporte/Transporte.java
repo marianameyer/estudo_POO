@@ -29,7 +29,7 @@ class Onibus extends Transporte{
     this.quantidadeParadas = quantidadeParadas;
   }
 
-  // Método sobreescrito 
+  // Método sobrescrito 
   @Override
   public double calcularTarifa(){
     return (valorBase + (quantidadeParadas * 0.50));
@@ -47,7 +47,7 @@ class Taxi extends Transporte{
     this.quilometragem = quilometragem;
   }
 
-  // Método sobreescrito 
+  // Método sobrescrito 
   @Override
   public double calcularTarifa(){
     return (valorBase + (quilometragem * 2.00));
