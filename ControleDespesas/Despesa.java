@@ -33,7 +33,7 @@ class DespesaViagem extends Despesa{
     this.valorHospedagem = valorHospedagem;
   }
 
-  // Sobreescrita do método 
+  // Sobrescrita do método 
   @Override
   public double calcularTotal(){
     System.out.print(descricao);
@@ -53,7 +53,7 @@ class DespesaAlimentacao extends Despesa{
     this.gorjeta = gorjeta;
   }
 
-  // Sobreescrita
+  // Sobrescrita
   @Override
   public double calcularTotal(){
     System.out.print(descricao);
