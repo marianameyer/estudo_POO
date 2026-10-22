@@ -1,3 +1,3 @@
 # Estudo POO
 
-Alguns exercícios realizados em sala ou para treinar...
+Exercícios feitos em sala ou de listas.
