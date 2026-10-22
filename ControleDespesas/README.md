@@ -9,7 +9,7 @@ Classes:
 - Despesa
   - Atributos: descricao, valor
   - Método calcularTotal() → retorna valor
-  - 
+    
 - DespesaViagem
   - Atributos adicionais: valorPassagem, valorHospedagem
   - Sobrescreve calcularTotal() para retornar valor + valorPassagem + valorHospedagem
