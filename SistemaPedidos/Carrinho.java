@@ -43,13 +43,20 @@ class Carrinho{
   // Método para calcular o valor total 
   public double calcularTotal(){
 
+    System.out.println("==================================");
+    System.out.println("Resumo da Compra:");
+    System.out.println("==================================");
+
     // Atributo 
     double total = 0.0;
 
     // Verificando se o vetor não está cheio 
     for(int i = 0; i < qtde; i++){
+      System.out.printf("Produto: %s | Valor: R$ %.2f;\n", listaP[i].nome,
+       listaP[i].preco);
       total += listaP[i].calcularPrecoFinal();
     }
+    System.out.println("==================================");
     return total;
   }
 }
